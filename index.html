@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./index.css" />
+  <script src="./index.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="example">
+      <h2> Demo Table Of Candidates </h2>
+      <table class="candidates" id="candidates_example">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Skills</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Cirpo</td>
+          <td>JavaScript, Docker</td>
+        </tr>
+        <tr>
+          <td>Louis</td>
+          <td>Java, AEM</td>
+        </tr>
+        <tr>
+          <td>Nermin</td>
+          <td>.NET, Azure</td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="title"> Candidates </h2>
+      <p> Select an option from the dropdown to filter by that skill </p>
+      <label>First Filter: </label><select id='skills'>
+        <option>All</option>
+      </select>
+      <label>Second Filter: </label><select id='skills2'>
+        <option>All</option>
+      </select>
+  </div>
+
+</body>
+
+</html>

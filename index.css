@@ -1,0 +1,58 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+body {
+  font-family: "system";
+}
+
+
+.candidates {
+  position: absolute;
+  left: calc(50% - 240px);
+  top: 100px;
+  font-size: 12px;
+  background: #fff;
+  margin: 45px;
+  width: 400px;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.candidates th {
+  font-size: 16px;
+  font-weight: normal;
+/*  color: #039;*/
+  padding: 10px 8px;
+  border-bottom: 1px solid grey;
+}
+
+.candidates td {
+  /*color: #669;*/
+  padding: 9px 8px 0px 8px;
+}
+
+.candidates tbody tr:hover td {
+  /*color: #009;*/
+  cursor: default;
+}
+
+.title p {
+  font-weight: normal;
+}
+
+#container {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  left: calc(50% - 240px);
+  width: 480px;
+}
+
+#skills {
+  margin-right: 10px;
+}
